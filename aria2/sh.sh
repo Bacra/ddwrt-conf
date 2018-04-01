@@ -1,7 +1,5 @@
 #!/bin/sh
 
-#DIR=`pwd`
-#DIR=/mnt/sda1/aria2
 DIR=$(cd `dirname $0`; pwd)
 
 DOWNLOAD_DIR=$DIR/../downloads/
