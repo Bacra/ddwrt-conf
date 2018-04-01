@@ -3,7 +3,8 @@
 DIR=$(cd `dirname $0`; pwd)
 
 DOWNLOAD_DIR=$DIR/../downloads/
-mkdir $DIR/tmp/
+
+mkdir -p $DIR/tmp/
 mkidr -p $DOWNLOAD_DIR
 
 $DIR/aria2c\
