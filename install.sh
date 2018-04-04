@@ -11,10 +11,10 @@ tar -zxvf ddwrt-conf.tar.gz
 
 
 echo -e "\n\n"
-scp -r ddwrt-conf-master/usb_mount root@192.168.1.1:/tmp/root
+scp -r ddwrt-conf-master/usb_mount root@192.168.1.1:/jffs/
 
 rm -rf $self_tmp
 
 echo -e "\n\n"
 echo " Install Finish"
-echo " /tmp/root/use_mount/main.sh"
+echo " /jffs/use_mount/main.sh"
