@@ -11,7 +11,6 @@ tar -zxvf ddwrt-conf.tar.gz
 
 
 echo -e "\n\n"
-echo "Input DDWrt Password"
 scp -r ddwrt-conf-master/usb_mount root@192.168.1.1:/tmp/root
 
 rm -rf $self_tmp
