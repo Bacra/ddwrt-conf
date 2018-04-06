@@ -3,6 +3,7 @@
 echo -e "\n\n"
 echo " Run in PC\Mac"
 echo " Install Start"
+echo -e "\n\n\n"
 
 self_tmp=./.tmp
 mkdir -p $self_tmp
