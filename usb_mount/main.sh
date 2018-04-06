@@ -9,3 +9,5 @@ $DIR/init_aria2.sh
 
 echo -e "\n\n ===== Mount TV_video folder =====\n"
 $DIR/mount_tv_video.sh
+
+echo -e "\n\n =====          End          =====\n\n"
