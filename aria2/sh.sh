@@ -2,7 +2,10 @@
 
 DIR=$(cd `dirname $0`; pwd)
 
-DOWNLOAD_DIR=$DIR/../downloads/
+DOWNLOAD_DIR="$1"
+if [ "$DOWNLOAD_DIR" = "" ]; then
+    $DOWNLOAD_DIR=$DIR/../downloads/
+fi
 
 mkdir -p $DIR/tmp/
 mkidr -p $DOWNLOAD_DIR
