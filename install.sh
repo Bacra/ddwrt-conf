@@ -20,3 +20,4 @@ rm -rf $self_tmp
 echo -e "\n\n"
 echo " Install Finish"
 echo " /jffs/ddwrt-conf-master/usb_mount/main.sh"
+echo -e "\n\n"
