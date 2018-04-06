@@ -1,9 +1,10 @@
 #!/bin/bash
+DIR=$(cd `dirname $0`; pwd)
 
 sleep 10
 
 echo "start aria2"
-./init_aria2.sh
+$DIR/init_aria2.sh
 
 echo "mount TV_video folder"
-./mount_tv_video.sh
+$DIR/mount_tv_video.sh
