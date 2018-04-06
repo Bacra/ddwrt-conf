@@ -10,6 +10,10 @@ fi
 mkdir -p $DIR/tmp/
 mkidr -p $DOWNLOAD_DIR
 
+if [ ! -f "$DIR/tmp/aria2.session" ]; then
+    touch $DIR/tmp/aria2.session
+fi
+
 $DIR/aria2c\
     --conf-path=$DIR/aria2.conf\
     --dir=$DOWNLOAD_DIR\
