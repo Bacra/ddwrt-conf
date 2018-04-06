@@ -8,8 +8,9 @@ fi
 
 for i in $(seq 1 5); do
     self_dir=/mnt/sda$i/TV_video
-    if [ -d "$self_dir"]; then
+    if [ -d "$self_dir" ]; then
         mount $self_dir $TARGET_DIR
+        echo "Mount TV_video: $self_dir"
         break
     fi
 done

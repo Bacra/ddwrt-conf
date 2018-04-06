@@ -12,6 +12,7 @@ for i in $(seq 1 5); do
     sda_dir=/mnt/sda$i
     if [ -d "$sda_dir"]; then
         $DIR/../aria2/sh.sh $sda_dir/download
+        echo "Set aria2 Download: $sda_dir"
         exit
     fi
 done
