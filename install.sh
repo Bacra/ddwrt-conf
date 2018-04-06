@@ -1,3 +1,5 @@
+#!/bin/bash
+
 echo -e "\n\n"
 echo " Run in PC\Mac"
 echo " Install Start"
@@ -17,4 +19,4 @@ rm -rf $self_tmp
 
 echo -e "\n\n"
 echo " Install Finish"
-echo " /jffs/ddwrt-conf-master/use_mount/main.sh"
+echo " /jffs/ddwrt-conf-master/usb_mount/main.sh"

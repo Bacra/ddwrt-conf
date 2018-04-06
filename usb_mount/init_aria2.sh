@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 # 如果已经有服务在允许，则直接退出
 if [ "$(ps | grep aria2c | grep -v grep)" != "" ]; then
