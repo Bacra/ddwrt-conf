@@ -8,7 +8,7 @@ if [ "$DOWNLOAD_DIR" = "" ]; then
 fi
 
 mkdir -p $DIR/tmp/
-mkidr -p $DOWNLOAD_DIR
+mkdir -p $DOWNLOAD_DIR
 
 if [ ! -f "$DIR/tmp/aria2.session" ]; then
     touch $DIR/tmp/aria2.session
